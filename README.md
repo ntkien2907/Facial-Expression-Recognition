@@ -11,18 +11,18 @@
 ### Dataset
 * [FER-2013](https://www.kaggle.com/msambare/fer2013) from Kaggle.
 * Dataset is converted into CSV file for saving training time.
-* The original dataset has 7 classes (angry, disgust, fear, happy, sad, surprised, neutral) but I have removed 'disgust' class and 'fear' one because these two expressions are not clear.
+* The original dataset has 7 classes (angry, disgust, fear, happy, sad, surprised, neutral) but I have removed 'disgust' class and the 'fear' one because these two expressions are not clear.
 
 ### Method
 * Convolutional Neural Network (CNN) has the architecture as below
    <img src="results/cnn-architecture.png" width="50%" height="50%">
 
-* A callback function is set to stop training when accuracy > 72% and val_accuracy > 70% to avoid overfitting
+* A callback function is set to stop training when accuracy > 75% and val_accuracy > 71% to avoid overfitting
 * Here is the **model accuracy** plot and the **model loss** one
    <img src="results/acc-loss.png" width="90%" height="90%">
 
 ### How to use
-1. Run **train_model.ipynb** if you want to train model from scratch. Otherwise, you can use my model including **fer.json** and **fer.h5**
+1. Run **train_model.ipynb** if you want to train model from scratch or modify the network's parameters by yourself. Otherwise, you can use my model including **fer.json** and **fer.h5**
 2. Run **via_image.ipynb** to recognise on images
 3. Run **via_webcam.ipynb** to test model on webcam. Actually, it just uses your webcam to capture and the images will be processed similar to **via_image.ipynb** 
 
