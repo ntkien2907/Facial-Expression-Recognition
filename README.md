@@ -15,10 +15,12 @@
 
 ### Method
 * Convolutional Neural Network (CNN) has the architecture as below
+
    <img src="results/cnn-architecture.png" width="50%" height="50%">
 
 * A callback function is set to stop training when accuracy > 75% and val_accuracy > 71% to avoid overfitting
 * Here is the **model accuracy** plot and the **model loss** one
+
    <img src="results/acc-loss.png" width="90%" height="90%">
 
 ### How to use
