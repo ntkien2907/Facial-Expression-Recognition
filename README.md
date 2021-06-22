@@ -5,6 +5,7 @@
 ### Notices
 * I strongly recommend that you use Google Colab to train model as well as test.
 * Download source code [here](https://drive.google.com/drive/folders/18kd8w70wANlQ8tSldH2aLy6SVO9YYz9s?usp=sharing).
+* Source code will always be updated on Google Colab
 
 ### Dataset
 * [FER-2013](https://www.kaggle.com/msambare/fer2013) from Kaggle.
@@ -15,9 +16,9 @@
 * Convolutional Neural Network (CNN) has the architecture as below
    <img src="results/cnn-architecture.png" width="50%" height="50%">
 
-* I have set a callback function that will stop training when accuracy > 72% and val_accuracy > 70% to avoid overfitting
-* Here is the **model accuracy** plot and **model loss** one
-<img src="results/acc-loss.png" width="75%" height="75%">
+* A callback function is set to stop training when accuracy > 72% and val_accuracy > 70% to avoid overfitting
+* Here is the **model accuracy** plot and the **model loss** one
+   <img src="results/acc-loss.png" width="80%" height="80%">
 
 ### How to use
 1. Run **train_model.ipynb** if you want to train model from scratch. Otherwise, you can use my model including **fer.json** and **fer.h5**
