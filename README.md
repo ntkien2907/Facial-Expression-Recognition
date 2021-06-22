@@ -1,12 +1,12 @@
 ## Facial Expression Recognition
 
-<img src="results/img_01.png" width="50%" height="50%">
-<img src="results/img_02.png" width="50%" height="50%">
-<img src="results/img_03.png" width="50%" height="50%">
+<img src="results/img_01.png" width="25%" height="25%">
+<img src="results/img_02.png" width="25%" height="25%">
+<img src="results/img_03.png" width="25%" height="25%">
 
 ### Notices
 * I strongly recommend that you use Google Colab to train model as well as test.
-* Download source code [here]('https://drive.google.com/drive/folders/18kd8w70wANlQ8tSldH2aLy6SVO9YYz9s?usp=sharing').
+* Download source code [here](https://drive.google.com/drive/folders/18kd8w70wANlQ8tSldH2aLy6SVO9YYz9s?usp=sharing).
 
 ### Dataset
 * [FER-2013](https://www.kaggle.com/msambare/fer2013) from Kaggle.
