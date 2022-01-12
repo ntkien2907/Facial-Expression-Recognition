@@ -40,9 +40,3 @@
   <img src='./figures/loss.jpg' width=48% /> 
 </p>
 <p align='middle'><img src='./figures/evaluation.jpg' width=50% /></p>
-
----
-### References
-2. [Priya Dwivedi. Face-and-Emotion-Detection.](https://github.com/priya-dwivedi/face_and_emotion_detection/blob/master/src/EmotionDetector_v2.ipynb)
-3. [Akamadan. Emotion-Detection-CNN.](https://github.com/akmadan/Emotion_Detection_CNN/blob/main/emotion-classification-cnn-using-keras.ipynb)
-4. [Great Learning (2020). Emotion Detection using Python.](https://www.youtube.com/watch?v=m0fWjP3yIEo&ab_channel=GreatLearning)
