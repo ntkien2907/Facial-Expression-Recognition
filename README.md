@@ -12,7 +12,7 @@
 ---
 ### Dataset
 * [FER-2013](https://www.kaggle.com/msambare/fer2013) from Kaggle.
-* Dataset has 7 classes: angry, disgust, fear, happy, sad, surprised, and neutral.
+* Dataset has 7 classes: angry, disgust, fear, happy, neutral, sad, and surprised.
 
 ---
 ### How to use
