@@ -12,7 +12,7 @@
 ---
 ### Dataset
 * [FER-2013](https://www.kaggle.com/msambare/fer2013) from Kaggle.
-* Dataset has 7 classes: angry, disgust, fear, happy, sad, surprised, neutral.
+* Dataset has 7 classes: angry, disgust, fear, happy, sad, surprised, and neutral.
 
 ---
 ### How to use
@@ -25,7 +25,12 @@
     python test.py
     ```
 
-* **Notice:** This model will work best if users do not wear glasses.
+* **Notice:** This model will work best if users * **do not** * wear glasses.
+
+---
+### Neural Network Architecture
+
+<p align='middle'><img src="figures/cnn-architecture.jpg" width="50%" height="50%"></p>
 
 ---
 ### Evaluation
@@ -36,13 +41,8 @@
 </p>
 <p align='middle'><img src='./figures/evaluation.jpg' width=50% /></p>
 
-* The architecture of my neural network is as below
-
-   <img src="figures/cnn-architecture.jpg" width="50%" height="50%">
-
 ---
 ### References
 2. [Priya Dwivedi. Face-and-Emotion-Detection.](https://github.com/priya-dwivedi/face_and_emotion_detection/blob/master/src/EmotionDetector_v2.ipynb)
 3. [Akamadan. Emotion-Detection-CNN.](https://github.com/akmadan/Emotion_Detection_CNN/blob/main/emotion-classification-cnn-using-keras.ipynb)
 4. [Great Learning (2020). Emotion Detection using Python.](https://www.youtube.com/watch?v=m0fWjP3yIEo&ab_channel=GreatLearning)
-5. [The AI Guy (2020). How to Use Webcam In Google Colab for Images and Video.](https://www.youtube.com/watch?v=YjWh7QvVH60&ab_channel=TheAIGuy)
