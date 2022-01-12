@@ -25,7 +25,7 @@
     python test.py
     ```
 
-* **Notice:** This model will work best if users * **do not** * wear glasses.
+* **Notice:** This model will work best if users **do not** wear glasses.
 
 ---
 ### Neural Network Architecture
